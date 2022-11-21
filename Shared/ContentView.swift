@@ -10,8 +10,6 @@ import SwiftUI
 struct CustomLabelStyle: LabelStyle {
     func makeBody(configuration: Configuration) -> some View {
         Label(configuration)
-            .background(Color.black)
-            .opacity(20.0)
             .font(.system(size: 32.0))
     }
 }
@@ -21,11 +19,12 @@ struct ContentView: View {
         ZStack {
             Color(.blue).opacity(0.1).edgesIgnoringSafeArea(.horizontal)
                 
+                
                 VStack(spacing: 10) {
                     
-                    Label("Game Standings", systemImage: "keyboard")
+                    Label("Game Standings", systemImage: "play.fill")
                         .labelStyle(CustomLabelStyle())
-                        .foregroundColor(Color.white)
+                        .foregroundColor(Color.red)
                         .font(Font.system(Font.TextStyle.body))
                         
                     Spacer()

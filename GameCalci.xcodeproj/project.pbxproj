@@ -17,6 +17,8 @@
 		220D40DF292C126200BA30DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220D40B5292C126100BA30DC /* ContentView.swift */; };
 		220D40E0292C126200BA30DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220D40B6292C126200BA30DC /* Assets.xcassets */; };
 		220D40E1292C126200BA30DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220D40B6292C126200BA30DC /* Assets.xcassets */; };
+		220D40F5292C31C900BA30DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220D40F4292C31C900BA30DC /* ViewController.swift */; };
+		220D40F6292C31C900BA30DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220D40F4292C31C900BA30DC /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 		220D40D8292C126200BA30DC /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		220D40DA292C126200BA30DC /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		220D40F0292C135100BA30DC /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		220D40F4292C31C900BA30DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 				220D40B4292C126100BA30DC /* GameCalciApp.swift */,
 				220D40B5292C126100BA30DC /* ContentView.swift */,
 				220D40B6292C126200BA30DC /* Assets.xcassets */,
+				220D40F4292C31C900BA30DC /* ViewController.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -301,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220D40F5292C31C900BA30DC /* ViewController.swift in Sources */,
 				220D40DE292C126200BA30DC /* ContentView.swift in Sources */,
 				220D40DC292C126200BA30DC /* GameCalciApp.swift in Sources */,
 			);
@@ -310,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220D40F6292C31C900BA30DC /* ViewController.swift in Sources */,
 				220D40DF292C126200BA30DC /* ContentView.swift in Sources */,
 				220D40DD292C126200BA30DC /* GameCalciApp.swift in Sources */,
 			);
