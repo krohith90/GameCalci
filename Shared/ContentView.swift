@@ -7,11 +7,41 @@
 
 import SwiftUI
 
+struct CustomLabelStyle: LabelStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        Label(configuration)
+            .background(Color.black)
+            .opacity(20.0)
+            .font(.system(size: 32.0))
+    }
+}
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color(.blue).opacity(0.1).edgesIgnoringSafeArea(.horizontal)
+                
+                VStack(spacing: 10) {
+                    
+                    Label("Game Standings", systemImage: "keyboard")
+                        .labelStyle(CustomLabelStyle())
+                        .foregroundColor(Color.white)
+                        .font(Font.system(Font.TextStyle.body))
+                        
+                    Spacer()
+                    Text("Sign in with Facebook")
+                        .fontWeight(.light)
+                        .font(.title)
+                    Text("Sign in with Google")
+                        .fontWeight(.light)
+                        .font(.title)
+                    Spacer()
+                }
+                .foregroundColor(Color.black.opacity(0.7))
+                }
     }
+        
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

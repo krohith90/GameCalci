@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		220D40B4292C126100BA30DC /* GameCalciApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCalciApp.swift; sourceTree = "<group>"; };
-		220D40B5292C126100BA30DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		220D40B5292C126100BA30DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Shared/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		220D40B6292C126200BA30DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		220D40BB292C126200BA30DC /* GameCalci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameCalci.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		220D40C1292C126200BA30DC /* GameCalci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameCalci.app; sourceTree = BUILT_PRODUCTS_DIR; };
