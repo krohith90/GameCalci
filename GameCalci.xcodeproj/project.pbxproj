@@ -49,6 +49,7 @@
 		220D40D4292C126200BA30DC /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		220D40D8292C126200BA30DC /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		220D40DA292C126200BA30DC /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		220D40F0292C135100BA30DC /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 		220D40AE292C126100BA30DC = {
 			isa = PBXGroup;
 			children = (
+				220D40F0292C135100BA30DC /* Readme.md */,
 				220D40B3292C126100BA30DC /* Shared */,
 				220D40C2292C126200BA30DC /* macOS */,
 				220D40CB292C126200BA30DC /* Tests iOS */,
